@@ -22,7 +22,12 @@ $(function() {
       $.ajax({
         url: $form.attr("action"),
         type: "POST",
-        data: $form.serialize(),
+        data: {
+          name: name,
+          phone: phone,
+          email: email,
+          message: message
+        },
         cache: false,
 
         success: function() {

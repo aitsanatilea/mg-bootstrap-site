@@ -112,6 +112,22 @@ img::-moz-selection {
   background: transparent;
 }
 
+.navbar-shrink #logo-img {
+  background: url('../img/massive-gravity-logo.png') no-repeat;
+  background-size: 90px auto;
+  width: 90px;
+  height: 50px;
+  /* margin: 10px 15px 10px 0; */
+}
+
+/* #logo-img {
+  background: url('../img/logo.jpg') no-repeat center;
+  background-size: 125px auto;
+  width: 125px;
+  height: 68px;
+} */
+
+
 #mainNav {
   background-color: #212529;
 }
@@ -179,20 +195,10 @@ img::-moz-selection {
   }
 }
 
-#logo-img {
-  background: url('../img/logo.jpg') no-repeat center;
-  background-size: 125px auto;
-  width: 125px;
-  height: 68px;
-  /* opacity: 0.8; */
-}
-
 header.masthead {
   text-align: center;
   color: white;
   background-image: url("../img/header-bg-logo.jpg");
-  /* opacity: 1; */
-  /* opacity: 0.9; */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

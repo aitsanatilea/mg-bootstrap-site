@@ -714,14 +714,14 @@ iframe {
 
 /* Rules for Open Street Map */
 #mapid {
-  height: 360px;
+  height: 450px;
   width: 100%;
   /* height: 40rem; */
 }
 
 @media (max-width: 992px) {
   #mapid {
-    height: 250px;
+    height: 300px;
   }
 }
 

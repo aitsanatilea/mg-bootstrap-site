@@ -129,7 +129,7 @@ img::-moz-selection {
 
 
 #mainNav {
-  background-color: #212529;
+  background-color: #181b1e;
 }
 
 #mainNav .navbar-toggler {
@@ -187,7 +187,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #181b1e;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -209,16 +209,18 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
+  color: #ccc;
+  font-size: 16px;
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 450px;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -231,15 +233,17 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 50px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    color: #ccc;
+    font-size: 20px;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 550px;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
@@ -411,7 +415,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #212529;
+  background-color: #181b1e;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -423,7 +427,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #212529;
+  background-color: #181b1e;
 }
 
 .timeline {
@@ -440,7 +444,8 @@ header.masthead .intro-text .intro-heading {
   width: 2px;
   margin-left: -1.5px;
   content: '';
-  background-color: #e9ecef;
+  background-color: #d7e1ee;
+   /* #e9ecef; */
 }
 
 .timeline > li {
@@ -489,7 +494,8 @@ header.masthead .intro-text .intro-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #d7e1ee;
+  /* #e9ecef ; */
   border-radius: 100%;
   background-color: #fed136;
 }
@@ -634,7 +640,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: #181b1e;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -761,7 +767,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #181b1e;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {

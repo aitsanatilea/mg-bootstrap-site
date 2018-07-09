@@ -202,25 +202,26 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 600px;
+  -moz-background-size: 600px;
+  -o-background-size: 600px;
+  background-size: 600px;
+  background-color: #000;
 }
 
 header.masthead .intro-text {
   padding-top: 100px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 header.masthead .intro-text .intro-lead-in {
-  color: #ccc;
-  font-size: 18px;
+  color: #cacaca;
+  font-size: 16px;
   font-style: italic;
-  line-height: 22px;
-  margin-bottom: 25px;
+  line-height: 18px;
+  margin-bottom: 10px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding-top: 450px;
+  padding-top: 250px;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -229,6 +230,26 @@ header.masthead .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 576px) {
+  header.masthead {
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  header.masthead .intro-text {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 450px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -242,7 +263,6 @@ header.masthead .intro-text .intro-heading {
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding-top: 550px;
   }
   header.masthead .intro-text .intro-heading {
@@ -250,7 +270,6 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
 
@@ -270,12 +289,6 @@ header.masthead .intro-text .intro-heading {
   right: 0;
   margin: 0 0 15px;
 }
-
-/* #portfolio .portfolio-item img{
-  -moz-box-shadow:    0px 2px 3px 0px #fed136;
-  -webkit-box-shadow: 0px 2px 3px 0px #fed136;
-  box-shadow:         0px 3px 4px 0px #fed136;
-} */
 
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -320,20 +333,18 @@ header.masthead .intro-text .intro-heading {
   margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+#portfolio .portfolio-item-description .portfolio-caption {
   margin: 0 auto;
-  padding: 25px;
-  text-align: center;
+  text-align: left;
   background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
-  margin: 0;
+#portfolio .portfolio-item-description .portfolio-caption h4 {
+  margin: 5px 0px 0px 0px;
   text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#portfolio .portfolio-item-description .portfolio-caption p {
   font-size: 16px;
   font-style: italic;
   margin: 0;
@@ -349,7 +360,7 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }

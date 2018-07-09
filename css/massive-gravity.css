@@ -263,7 +263,7 @@ header.masthead .intro-text .intro-heading {
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-    padding-top: 550px;
+    padding-top: 450px;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
@@ -273,10 +273,22 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+@media (min-width: 992px) {
+  header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+
+  header.masthead .intro-text .intro-lead-in {
+    padding-top: 550px;
+    font-size: 22px;
+  }
+}
+
 @media (min-width: 1600px) {
   header.masthead .intro-text .intro-lead-in {
     padding-top: 700px;
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 

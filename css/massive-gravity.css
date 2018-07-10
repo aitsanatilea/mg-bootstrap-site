@@ -117,16 +117,7 @@ img::-moz-selection {
   background-size: 90px auto;
   width: 90px;
   height: 50px;
-  /* margin: 10px 15px 10px 0; */
 }
-
-/* #logo-img {
-  background: url('../img/logo.jpg') no-repeat center;
-  background-size: 125px auto;
-  width: 125px;
-  height: 68px;
-} */
-
 
 #mainNav {
   background-color: #181b1e;
@@ -285,10 +276,24 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
+  header.masthead .intro-text .intro-lead-in {
+    padding-top: 600px;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 2000px) {
   header.masthead .intro-text .intro-lead-in {
     padding-top: 700px;
     font-size: 24px;
+  }
+}
+
+@media (min-width: 3000px) {
+  header.masthead .intro-text .intro-lead-in {
+    padding-top: 900px;
+    font-size: 26px;
   }
 }
 
